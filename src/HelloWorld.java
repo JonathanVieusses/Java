@@ -5,8 +5,9 @@ import java.sql.SQLOutput;
 public class HelloWorld {
 
     public static void main(String[] args) {
-
-        // int pour les nombres entiers
+        // la classe commence toujours par une Maj.
+        // type primitif toujours en minuscule.
+        // int pour les nombres entiers.
         int number = 40;
 
         // double pour les decimals
