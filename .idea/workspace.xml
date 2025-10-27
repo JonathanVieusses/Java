@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="006b23a3-415b-42a8-8c7f-c4c15701bba4" name="Changes" comment="Added all files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="006b23a3-415b-42a8-8c7f-c4c15701bba4" name="Changes" comment="added else if">
+      <change afterPath="$PROJECT_DIR$/Boucle/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucle/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Else If/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Else If/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Else If/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Else If/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Else If/Else If.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Else If/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Else If/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Jonathan/IdeaJava",
     "project.structure.last.edited": "Modules",
@@ -92,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761569018098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added all files">
+      <option name="closed" value="true" />
+      <created>1761569954181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761569954181</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added else if">
+      <option name="closed" value="true" />
+      <created>1761570090201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761570090201</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all files" />
+    <MESSAGE value="added else if" />
+    <option name="LAST_COMMIT_MESSAGE" value="added else if" />
   </component>
 </project>
