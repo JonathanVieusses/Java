@@ -116,7 +116,7 @@ public class Main {
 
         int x = 0;
                 for(int y = 1; y <= 100; y++){
-                    x = x+y;
+                    x = x+y;      // ou x+=y
                 }
         System.out.println("la somme de 1 à 100 est : " + x);
 

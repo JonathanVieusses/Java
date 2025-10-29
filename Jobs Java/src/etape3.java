@@ -48,7 +48,6 @@ public class etape3 {
             } else if (i >= 25 && i <=50) {
                 if (42 == i) {
                     System.out.println("La Plateforme");
-                    continue;
                 }
                     System.out.println("__." + i + "__.");
             } else {
@@ -56,7 +55,7 @@ public class etape3 {
             }
         }
 
-    */
+        */
 
         // -------------------------- SOLUTION 2 -------------------
         // on va travailler avec un else if pour la condition de 25 à 50
@@ -78,7 +77,7 @@ public class etape3 {
             }
         }
 
-         */
+        */
 
 
 
@@ -88,11 +87,11 @@ public class etape3 {
         /*
 
 for ( int i = 0; i <=100; i++){
-        if ( i % 3 == 0 && i % 5==0 && i!=0){
+        if (i % 3 == 0 && i % 5==0 && i!=0){
             System.out.println("FizzBuzz");
-        } else if ( i % 3 ==0 && i != 0){
+        } else if (i % 3 ==0 && i != 0){
             System.out.println("Fizz");
-        } else if ( i % 5 == 0 && i !=0) {
+        } else if (i % 5 == 0 && i !=0) {
             System.out.println("Buzz");
         } else {
             System.out.println(i);
@@ -105,6 +104,29 @@ for ( int i = 0; i <=100; i++){
 
 // ---------------------------------------- JOB 5 -----------------------------------------------
 
+    // ------------------------------------non fait ---------------------------------------------
+
+
+        // ----------------------- CORRECTION -------------------------------------
+
+        /*
+
+    for (int n = 2; n<= 1000; n++) {
+
+        boolean estPremier=true;
+
+    for (int i = 2; i <= Math.sqrt(n); i++){
+            if (n % i == 0) {
+            estPremier = false;
+            break;
+            }
+        }
+        if (estPremier) {
+            System.out.println(n);
+        }
+    }
+
+        */
 
 // --------------------------------------- JOB 6 ------------------------------------------------
 
@@ -125,24 +147,39 @@ for ( int i = 0; i <=100; i++){
 
 // -------------------------------------- JOB 7 ------------------------------------------------
 
+        // + partie basse pour job 8
+
+        /*
+
         int h = 5;
 
-            /*   for (int i=0; i <=5; i++) {
-            if (i == 3) {
-                System.out.print("*");
-            } else {
-              System.out.print(" ");
-            }
-            */
+    // Haut
 
-        for(int i=0; i<=h; i++) {
-            for (int x = 0; x <= i; x++) {
-                System.out.print("*");
+
+        for (int i=0; i<=h; i++) {
+            for (int j = 0; j < h - i; j++) {
+                System.out.print(" ");
+            }
+            for (int x = 1; x <= i; x++) {
+                System.out.print("* ");
             } System.out.println();
+
+        }
+
+    // bas
+
+        for (int i = 0; i <= h; i++) {
+            for (int j = 0; j <= i; j++){
+                System.out.print(" ");
+            }
+            for (int x = 1; x < h - i; x++) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
 
 
-
+        */
 
 
 

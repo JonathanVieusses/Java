@@ -26,7 +26,7 @@ public class Main {
             System.out.println("Le nombre est negatif");
         }
 
-        else if (x == 0) {
+        else {
             System.out.println("le nombre est nul");
         }
         etape1a.close();
@@ -41,7 +41,7 @@ public class Main {
         System.out.println("choissisez une note");
         double x = exo3.nextDouble();
 
-        if (x >= 16) {
+        if (x >= 16 && x<=20) {
             System.out.println("Trés bien");
         }
 
