@@ -121,6 +121,7 @@ public class Main {
         System.out.println("la somme de 1 à 100 est : " + x);
 
         */
+        
 
     }
 
