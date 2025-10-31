@@ -80,6 +80,7 @@ public class Main {
                     y= calculatrice.nextInt();
                     System.out.println("Le résultat est : "+ (x+y));
                     System.out.println();
+
                     break;
 
                 case 2 :
@@ -126,7 +127,8 @@ public class Main {
                 default:
                     System.out.println();
                     System.out.println("Essaie un autre nombre");
-                    choice = calculatrice.nextInt();
+                    System.out.println();
+                    continue;
 
             }
         }
